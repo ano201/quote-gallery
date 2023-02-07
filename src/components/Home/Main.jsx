@@ -1,9 +1,16 @@
 import React from "react";
+import useFetch from "../../hooks/useFetch";
+import SingleCard from "../SingleCard";
 
 const Main = () => {
+  const { data } = useFetch();
+
   return (
     <div>
-      <h1>Main Content Here</h1>
+      {data &&
+        data.map((singleData) => (
+          <SingleCard key={singleData.id} singleData={singleData}></SingleCard>
+        ))}
     </div>
   );
 };
