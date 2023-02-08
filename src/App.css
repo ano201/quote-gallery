@@ -3,3 +3,9 @@ body {
     padding: 0;
     background-color: black;
 }
+
+.c-max {
+    max-width: 1686px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}

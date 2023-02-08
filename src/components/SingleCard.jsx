@@ -1,17 +1,20 @@
 import React from "react";
-import { Button, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+import "./SingleCard.css";
 
 const SingleCard = ({ singleData }) => {
   const { about, img, data } = singleData;
 
   return (
     <div>
-      <Card style={{ width: "18rem" }}>
+      <Card
+        className="c-center mt-2 mt-lg-5 mt-md-3 c-border bg-black"
+        style={{ width: "18rem" }}
+      >
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title>{about}</Card.Title>
           <Card.Text>{data}</Card.Text>
-          <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
     </div>

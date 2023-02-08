@@ -1,11 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import bnimg from "./ano.jpg";
-import "./banner.css";
 
 const Banner = () => {
   return (
-    <div className="position-relative">
+    <div className="position-relative mb-3">
       <div>
         <img src={bnimg} className="img-fluid" alt="" />
       </div>
