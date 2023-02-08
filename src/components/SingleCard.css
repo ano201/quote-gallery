@@ -1,0 +1,11 @@
+.c-center {
+    margin: 0 auto;
+}
+
+.c-border {
+    border: 2px solid rgb(243, 122, 9);
+}
+
+.c-border:hover {
+    border: 2px solid rgba(243, 122, 9, 0.301);
+}
