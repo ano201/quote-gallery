@@ -8,7 +8,7 @@ const SingleCard = ({ singleData }) => {
   return (
     <div>
       <Card
-        className="c-center mt-2 mt-lg-5 mt-md-3 c-border bg-black"
+        className="mt-2 mt-lg-5 mt-md-3 bg-black c-card"
         style={{ width: "18rem" }}
       >
         <Card.Img variant="top" src={img} />
