@@ -1,12 +1,13 @@
 import React from "react";
 import Home from "./pages/Home";
 import "./App.css";
+import AboutUs from "./pages/AboutUs";
 
 const App = () => {
   return (
-    <div className="c-max">
-      <Home></Home>
-      <h1>Hello World</h1>
+    <div className="w-100 c-style">
+      {/* <Home></Home> */}
+      <AboutUs></AboutUs>
     </div>
   );
 };

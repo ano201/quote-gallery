@@ -1,0 +1,36 @@
+.header {
+    background-color: rgb(243, 122, 9);
+    color: #343a40;
+    padding: 30px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about-us {
+    padding: 60px;
+    color: rgb(243, 122, 9);
+
+}
+
+.about-us h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.about-us p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}

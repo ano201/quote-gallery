@@ -4,8 +4,7 @@ body {
     background-color: black;
 }
 
-.c-max {
-    max-width: 1686px;
+.c-style {
     margin: 0 auto;
     overflow-x: hidden;
 }
