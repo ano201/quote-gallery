@@ -6,10 +6,7 @@ const Header = () => {
     <div>
       <header class="header">
         <h1>About Us</h1>
-        <p>
-          We are dedicated professionals delivering the best possible services
-          and products.
-        </p>
+        <p>Helping millions grow better</p>
       </header>
     </div>
   );
