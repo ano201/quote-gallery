@@ -13,11 +13,11 @@ const Main = () => {
         <Row>
           {data &&
             data.map((singleData) => (
-              <div className="m-auto col-sm-12 col-md-6 col-xl-3 col-xxl-3">
-                <SingleCard
-                  key={singleData.id}
-                  singleData={singleData}
-                ></SingleCard>
+              <div
+                key={singleData.id}
+                className="m-auto col-sm-12 col-md-6 col-xl-3 col-xxl-3"
+              >
+                <SingleCard singleData={singleData}></SingleCard>
               </div>
             ))}
         </Row>
