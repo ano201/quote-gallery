@@ -1,0 +1,32 @@
+.c-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+}
+
+.bx-shd {
+    box-shadow: 0 0 10px rgb(243, 122, 9);
+
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: rgb(243, 122, 9);
+}
+
+.quote-mark {
+    font-size: 72px;
+    color: rgba(243, 122, 9, 0.562);
+    position: relative;
+    top: -10px;
+}
