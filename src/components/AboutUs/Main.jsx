@@ -3,7 +3,7 @@ import "./AboutUs.css";
 
 const Main = () => {
   return (
-    <div class="c-container">
+    <div class="c-container bx-shd">
       <p>
         <span class="quote-mark">"</span>Welcome to Quote Gallery! Our mission
         is to inspire and motivate people with meaningful quotes from
