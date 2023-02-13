@@ -1,36 +1,28 @@
-.header {
-    background-color: rgb(243, 122, 9);
-    color: #343a40;
-    padding: 30px;
+.c-container {
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
+    padding: 40px;
+    background-color: black;
+    box-shadow: 0 0 10px rgb(243, 122, 9);
 }
 
-.header h1 {
+h1 {
     font-size: 36px;
-    font-weight: 700;
     margin-bottom: 20px;
+    color: #333;
 }
 
-.header p {
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.about-us {
-    padding: 60px;
-    color: rgb(243, 122, 9);
-
-}
-
-.about-us h2 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 30px;
-}
-
-.about-us p {
-    font-size: 16px;
-    font-weight: 400;
+p {
+    font-size: 18px;
     line-height: 1.5;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    color: rgb(243, 122, 9);
+}
+
+.quote-mark {
+    font-size: 72px;
+    color: rgba(243, 122, 9, 0.562);
+    position: relative;
+    top: -10px;
 }
