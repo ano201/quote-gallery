@@ -1,0 +1,14 @@
+.footer-container {
+    box-shadow: 0 0 10px rgb(243, 122, 9);
+}
+
+.f-link {
+    color: rgb(243, 122, 9);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.f-link:hover {
+    color: rgba(243, 122, 9, 0.658);
+    box-shadow: 0 0 5px rgb(243, 122, 9);
+}
