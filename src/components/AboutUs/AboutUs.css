@@ -4,7 +4,11 @@
     text-align: center;
     padding: 40px;
     background-color: black;
+}
+
+.bx-shd {
     box-shadow: 0 0 10px rgb(243, 122, 9);
+
 }
 
 h1 {
