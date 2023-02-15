@@ -9,7 +9,7 @@ import SideMenu from "./components/SideMenu";
 const App = () => {
   return (
     <div className="w-100 c-style">
-      <SideMenu></SideMenu>
+      {/* <SideMenu></SideMenu> */}
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
