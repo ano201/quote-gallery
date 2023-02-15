@@ -4,7 +4,7 @@ import "./App.css";
 import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer";
 import { Navigate, Route, Routes } from "react-router-dom";
-import SideMenu from "./components/SideMenu";
+// import SideMenu from "./components/SideMenu";
 
 const App = () => {
   return (
