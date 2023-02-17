@@ -1,0 +1,12 @@
+.nav-container {
+    background-color: aqua;
+    max-width: 300px;
+    width: auto;
+    height: 96vh;
+    transition: all 1s;
+}
+
+.link-container {
+    background-color: red;
+    width: 50%;
+}

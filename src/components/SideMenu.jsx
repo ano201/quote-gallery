@@ -1,23 +1,28 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
-import { Row } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
+import "./Sidemenu.css";
+import { Link } from "react-router-dom";
 
 const SideMenu = () => {
-  const show = "col-sm-6";
+  const links = [
+    { title: "Home", href: "/" },
+    { title: "About", href: "/about" },
+  ];
   return (
-    <Row>
-      <div className={show}>
-        <div className="d-flex bg-primary justify-content-end">
-          <div className="w-25">
-            <FontAwesomeIcon icon={faCircleChevronLeft} className="img-fluid" />
-          </div>
-        </div>
-        <div className="bg-warning">
-          <h1>SideMenu</h1>
-        </div>
+    <Nav className="flex-column nav-container">
+      <div>
+        <FontAwesomeIcon icon={faCircleChevronLeft} className="img-fluid" />
       </div>
-    </Row>
+      <div className="link-container">
+        {links.map((link) => (
+          <Nav.Item key={link.href}>
+            <Link to={link.href}>{link.title}</Link>
+          </Nav.Item>
+        ))}
+      </div>
+    </Nav>
   );
 };
 
