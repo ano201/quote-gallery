@@ -1,12 +1,31 @@
 .nav-container {
-    background-color: aqua;
-    max-width: 300px;
-    width: auto;
-    height: 96vh;
-    transition: all 1s;
+    width: 300px;
+    height: 100vh;
+    transition: all 0.5s;
+    position: fixed;
+    z-index: 9999;
 }
 
 .link-container {
-    background-color: red;
-    width: 50%;
+    width: 85%;
+    box-shadow: 0 0 7px rgb(243, 122, 9);
+}
+
+.nav-button {
+    width: 40px;
+}
+
+.hide {
+    margin-left: -260px;
+}
+
+.nav-link {
+    color: rgb(243, 122, 9);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.nav-link:hover {
+    color: rgba(243, 122, 9, 0.658);
+    box-shadow: 0 0 5px rgb(243, 122, 9);
 }
